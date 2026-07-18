@@ -5,13 +5,7 @@
   <em>Bioinformatics @ University of Crete · building stuff that no one will use</em>
 </p>
 
-<p align="center">
-  <!-- dynamic cards; hide html/jupyter so the language mix reflects what you actually write -->
-  <img src="https://github-readme-stats.vercel.app/api?username=geokousis&show_icons=true&hide_border=true&count_private=true&theme=transparent" height="160" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geokousis&layout=compact&hide_border=true&langs_count=8&hide=html,jupyter%20notebook&theme=transparent" height="160" alt="top languages" />
-</p>
-
-<!-- always-render fallback: static tech badges (these never break, unlike the cards above) -->
+<!-- static tech badges: these always render (no external server that can fail) -->
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" />
