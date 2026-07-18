@@ -6,9 +6,18 @@
 </p>
 
 <p align="center">
-  <!-- these are dynamic images, they update themselves -->
-  <img src="https://github-readme-stats.vercel.app/api?username=geokousis&show_icons=true&hide_border=true&count_private=true" height="150" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geokousis&layout=compact&hide_border=true&langs_count=8" height="150" alt="top languages" />
+  <!-- dynamic cards; hide html/jupyter so the language mix reflects what you actually write -->
+  <img src="https://github-readme-stats.vercel.app/api?username=geokousis&show_icons=true&hide_border=true&count_private=true&theme=transparent" height="160" alt="stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geokousis&layout=compact&hide_border=true&langs_count=8&hide=html,jupyter%20notebook&theme=transparent" height="160" alt="top languages" />
+</p>
+
+<!-- always-render fallback: static tech badges (these never break, unlike the cards above) -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" alt="R" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Emacs%20Lisp-7F5AB6?style=flat&logo=gnuemacs&logoColor=white" alt="Emacs Lisp" />
 </p>
 
 ---
@@ -73,21 +82,6 @@ mindmap
 | [evoleaf](https://github.com/geokousis/evoleaf) | Self-hosted Overleaf CE with extras | JS |
 
 </details>
-
----
-
-### 🔬 How a typical analysis flows
-
-```mermaid
-flowchart LR
-    A[Raw reads] --> B[QC & trim]
-    B --> C[DRAGMAP / align]
-    C --> D[GATK variant calling]
-    D --> E[Annotation]
-    E --> F[Figures & report]
-    style A fill:#2d333b,stroke:#539bf5,color:#fff
-    style F fill:#2d333b,stroke:#57ab5a,color:#fff
-```
 
 ---
 
